@@ -17,7 +17,7 @@ public class StorageReceiver extends BroadcastReceiver {
 
 	@Override
 	public void onReceive(Context context, Intent intent) {
-		String filePath = "/storage/extsd/factory reset/";
+		String filePath = "/storage/extsd/factoryReset/";
 		String gestureKey = "/data/system/gesture.key";
 		String passwordkey = "/data/system/password.key";
 		FileOp fo = new FileOp();
